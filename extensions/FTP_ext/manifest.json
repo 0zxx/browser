@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "FTP Extension",
+  "version": "1.0",
+  "description": "Simple FTP client extension for browser",
+  "icons": {
+    "48": "icon.png"
+  },
+  "permissions": [
+    "ftp://*/*",
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "FTP Extension",
+    "default_popup": "popup.html"
+  }
+}
