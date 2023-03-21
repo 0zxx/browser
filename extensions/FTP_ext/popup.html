@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FTP Client</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <h1>FTP Client</h1>
+    <label for="ftpServer">FTP Server:</label>
+    <input type="text" id="ftpServer" name="ftpServer"><br>
+    <label for="ftpUser">FTP User:</label>
+    <input type="text" id="ftpUser" name="ftpUser"><br>
+    <label for="ftpPassword">FTP Password:</label>
+    <input type="password" id="ftpPassword" name="ftpPassword"><br>
+    <button onclick="connectToFTP()">Connect</button><br><br>
+    <div id="ftpDirectories"></div>
+    <script src="popup.js"></script>
+  </body>
+</html>
