@@ -1,5 +1,5 @@
 # Overview
-
+Original Creator: https://github.com/ysard
 Cookie Quick Manager: A complete manager for cookies accumulated during browsing.
 It allows you to view, edit, create, delete, backup, restore cookies and search them by domain names. Contextual Identities such as Private Browsing, First-Party Isolation, and SameSite flag are also supported.
 In addition, the LocalStorage of the page viewed can be deleted (see below).
